@@ -1,0 +1,28 @@
+{
+    "name": "itholiday/rabbitmq-pool",
+    "type": "library",
+    "description": "easyswoole rabbitmq pool",
+    "keywords" : ["swoole", "easyswoole", "rabbitmq","pool"],
+    "homepage" : "https://www.easyswoole.com/",
+    "license" : "Apache-2.0",
+    "authors": [
+        {
+            "name": "itholiday",
+            "email": "itholiday@126.cn"
+        }
+    ],
+    "require-dev": {
+        "easyswoole/swoole-ide-helper": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "EasySwoole\\RabbitMQPool\\": "src/"
+        }
+    },
+    "require": {
+        "easyswoole/component": "^2.0",
+        "easyswoole/spl": "^1.1",
+        "easyswoole/pool": "^1.0",
+        "php-amqplib/php-amqplib": "^2.11"
+    }
+}
